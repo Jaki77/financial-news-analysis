@@ -5,6 +5,9 @@ __pycache__/
 # Data files
 data/
 *.csv
+# Images and Plots
+plots/
+*.png
 # Jupyter checkpoints
 .ipynb_checkpoints/
 # OS files
