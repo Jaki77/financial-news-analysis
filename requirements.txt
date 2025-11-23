@@ -5,3 +5,5 @@ seaborn
 nltk
 textblob
 jupyter
+wordcloud
+scikit-learn
