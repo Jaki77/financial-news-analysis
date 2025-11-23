@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+# Python cache
+__pycache__/
+# Data files
+data/
+*.csv
+# Jupyter checkpoints
+.ipynb_checkpoints/
+# OS files
+.DS_Store
