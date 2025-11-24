@@ -7,7 +7,7 @@
 ### Business Objective
 Help Nova Financial enhance its predictive analytics capabilities by discovering and quantifying the relationship between financial news headline sentiment and daily stock price movements using the FNSPID dataset.
 
-### Project Status (as of 24 Nov 2025)
+### Project Status
 | Task | Status       | Notes |
 |------|--------------|-------|
 | Task 1: Git & GitHub + EDA + Text Analysis | Complete | Professional structure, full EDA, n-grams, topic modeling |
