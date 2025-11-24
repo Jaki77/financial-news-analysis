@@ -17,8 +17,8 @@ Help Nova Financial enhance its predictive analytics capabilities by discovering
 
 ### Repository Structure
 ├── data/
-│   ├── yfinance_data/               ← Raw price CSVs (AAPL, AMZN, GOOG, META, MSFT, NVDA)
-│   └── newsData
+│   ├── yfinance_data/               ← Raw price data
+│   └── newsData                     ← Raw news data
 ├── src/
 │   ├── data_loader.py               ← Dedicated price data ingestion
 │   ├── technical_indicators.py      ← TA-Lib calculations
