@@ -10,11 +10,11 @@ if __name__ == "__main__":
     print("Computing technical indicators...\n")
     price_data = process_all_stocks()
     
-    save_path = "../data/processed_price_data_with_indicators.pkl"
+    save_path = "./data/processed_price_data_with_indicators.pkl"
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     
     with open(save_path, "wb") as f:
         pickle.dump(price_data, f)
     
     print(f"\nAll done! Saved to: \n{save_path}")
-    print("Run the notebook now: 02_technical_indicators_analysis.ipynb")
+    print("Run the notebook now: quantitative_analysis.ipynb")
